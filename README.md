@@ -17,6 +17,16 @@ LearnPlaywrightAutomation/
 │   ├── 08_Comment.js
 │   └── 09_VsStudioCodeShortcuts.md
 ├── chapter_03_Identifiers_Literals/
+├── chapter_04_Variable/
+│   ├── 10_var_const_let.js
+│   ├── 11_function.js
+│   ├── 12_var_explained.js
+│   ├── 13_let.js
+│   ├── 14_const.js
+│   ├── 15_var_functionScope.js
+│   ├── 16_let_scoped.js
+│   ├── 17_var_hosting.js
+│   └── 18_hoisting_fn.js
 └── README.md
 ```
 
@@ -34,6 +44,12 @@ Introduction to JavaScript fundamentals, basic commands, and JavaScript basics.
 
 ### Chapter 3: Identifiers & Literals
 Understanding identifiers and literal values in JavaScript.
+
+### Chapter 4: Variables
+- **Variable Declarations**: `var`, `let`, and `const` keywords
+- **Scoping**: Function scope vs block scope
+- **Hoisting**: How variables are moved to the top of their scope
+- **Variable Types**: Dynamic typing in JavaScript
 
 ## Key Concepts Covered
 
@@ -55,6 +71,13 @@ All reserved keywords in JavaScript including control flow, declarations, operat
 ### VS Code Shortcuts
 Complete reference for keyboard shortcuts to improve coding productivity.
 
+### Variables
+- **`var`**: Function-scoped, hoisted, can be redeclared and reassigned
+- **`let`**: Block-scoped, not hoisted, can be reassigned but not redeclared in same scope
+- **`const`**: Block-scoped, not hoisted, immutable binding (cannot be reassigned)
+- **Scoping**: Function scope (var) vs block scope (let/const)
+- **Hoisting**: Variables declared with `var` are hoisted to top of function
+
 ## Getting Started
 
 1. Clone the repository
@@ -72,6 +95,7 @@ Complete reference for keyboard shortcuts to improve coding productivity.
 
 - Master JavaScript fundamentals
 - Understand identifier naming conventions
+- Learn variable declarations (`var`, `let`, `const`) and scoping
 - Write clean and readable code
 - Learn VS Code for efficient development
 - Prepare for Playwright web automation testing

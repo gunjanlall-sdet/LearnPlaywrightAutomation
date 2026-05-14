@@ -12,6 +12,7 @@ No special characters except _ and $
 Should be meaningful and descriptive
 Can be any length
 Follow camelCase or snake_case naming conventions
+unicode characters are allowed
 */
 
 var _myvariable = 10; // Valid identifier
